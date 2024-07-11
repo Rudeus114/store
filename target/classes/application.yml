@@ -14,7 +14,7 @@ spring:
 
 #配置mybatis配置
 mybatis:
-  type-aliases-package: top.year21.computerstore.entity
+  type-aliases-package: com.shixun.mall.entity
   mapper-locations: classpath:mybatis/mapper/*.xml
   configuration:
     #开启在mybatis处理过程中打印出对应的sql语句功能
