@@ -1,4 +1,4 @@
-# 电脑商城
+# 淘多多商城
 
 - 项目介绍：基于SpringBoot+Mybatis+BootStrap3.0前后端不分离的项目
 

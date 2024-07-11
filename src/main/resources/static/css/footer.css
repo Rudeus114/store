@@ -15,15 +15,11 @@
  }
  /*底部填充高*/
  .bottom {
- 	margin: 10px;
+     margin-top: 20vh;
  }
  /*权益整行的颜色和填充*/
  .rights {
  	width: 100%;
  	padding: 50px;
  	background-color: #F2F2F2;
- }
- /*联系我们那一整行的填充*/
- .beforeBottom {
- 	padding-top: 30px;
  }
