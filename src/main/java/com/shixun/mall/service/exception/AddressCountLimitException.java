@@ -1,7 +1,7 @@
 package com.shixun.mall.service.exception;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: 表示用户地址条目数超出限制的异常
  * @date 2022/7/13 18:55

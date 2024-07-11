@@ -3,7 +3,7 @@ package com.shixun.mall.utils;
 import org.springframework.util.DigestUtils;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: 处理密码加密的工具类
  * @date 2022/7/10 23:07

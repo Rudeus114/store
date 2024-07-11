@@ -5,7 +5,7 @@ import com.shixun.mall.entity.Favorites;
 
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: 处理收藏业务的业务层接口
  * @date 2022/7/21 21:30

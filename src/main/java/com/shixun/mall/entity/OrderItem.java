@@ -5,7 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: 对应数据表t_order_item的实体类
  * @date 2022/7/18 17:41

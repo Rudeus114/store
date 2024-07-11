@@ -1,7 +1,7 @@
 package com.shixun.mall.controller.exception;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: 处理文件上传为空的异常
  * @date 2022/7/13 15:46

@@ -6,7 +6,7 @@ import com.shixun.mall.entity.Product;
 import java.util.List;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: 处理商品业务层接口
  * @date 2022/7/16 15:01

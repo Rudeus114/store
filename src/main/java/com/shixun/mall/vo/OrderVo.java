@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import java.util.Date;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: 多表查询结果集映射的值对象
  * @date 2022/7/20 16:38

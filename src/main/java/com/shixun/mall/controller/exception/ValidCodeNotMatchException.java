@@ -1,7 +1,7 @@
 package com.shixun.mall.controller.exception;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: 表示验证码错误的异常
  * @date 2022/7/24 14:34

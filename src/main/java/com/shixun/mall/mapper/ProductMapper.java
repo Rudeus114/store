@@ -5,7 +5,7 @@ import com.shixun.mall.entity.Product;
 import java.util.List;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: 实体类Product对应的mapper接口
  * @date 2022/7/16 1:11

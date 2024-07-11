@@ -1,7 +1,7 @@
 package com.shixun.mall.service.exception;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: 专用于处理业务层的异常基类
  * @date 2022/7/10 21:59

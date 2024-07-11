@@ -6,7 +6,7 @@ import org.aspectj.lang.annotation.Aspect;
 import org.springframework.stereotype.Component;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: 这是用于统计业务方法执行的事件的增强类
  * @date 2022/7/19 15:43

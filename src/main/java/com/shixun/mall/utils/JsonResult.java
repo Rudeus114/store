@@ -3,7 +3,7 @@ package com.shixun.mall.utils;
 import lombok.Data;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: 响应数据
  * @date 2022/7/10 23:37

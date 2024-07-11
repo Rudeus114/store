@@ -7,7 +7,7 @@ import com.shixun.mall.utils.JsonResult;
 import javax.servlet.http.HttpSession;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: 基类Controller
  * @date 2022/7/11 0:23

@@ -5,7 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: 对应数据表t_favorites的实体类
  * @date 2022/7/21 20:04

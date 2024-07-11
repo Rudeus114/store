@@ -13,7 +13,7 @@ import com.shixun.mall.service.exception.ProductNotExistsException;
 import java.util.List;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: 商品业务层接口的实现类
  * @date 2022/7/16 15:01

@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: 自定义的拦截器类，拦截所有请求进行判断
  * @date 2022/7/11 19:40

@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.awt.image.BufferedImage;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: kaptcha的控制层,kaptcha调用
  * @date 2022/7/24 1:57

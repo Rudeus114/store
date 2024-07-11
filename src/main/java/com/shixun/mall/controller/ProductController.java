@@ -13,7 +13,7 @@ import com.shixun.mall.utils.JsonResult;
 import java.util.List;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: 处理商品相关请求的控制器
  * @date 2022/7/16 15:07

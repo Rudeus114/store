@@ -4,7 +4,7 @@ import lombok.Data;
 import org.springframework.stereotype.Component;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: 支付宝沙箱支付配置类
  * @date 2022/7/25 1:29

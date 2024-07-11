@@ -5,7 +5,7 @@ import com.shixun.mall.entity.User;
 import java.util.Date;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: User实体类对应的mapper接口
  * @date 2022/7/10 17:03

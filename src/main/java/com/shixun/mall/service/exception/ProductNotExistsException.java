@@ -1,7 +1,7 @@
 package com.shixun.mall.service.exception;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: 表示商品不存在的异常
  * @date 2022/7/16 17:02

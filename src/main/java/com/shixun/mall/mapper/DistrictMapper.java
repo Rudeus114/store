@@ -5,7 +5,7 @@ import com.shixun.mall.entity.District;
 import java.util.List;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: 实体类District对应的mapper接口
  * @date 2022/7/14 15:14

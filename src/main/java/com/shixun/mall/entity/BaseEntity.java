@@ -8,7 +8,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: 用于与数据表四个字段形成映射关系的基类
  * @date 2022/7/10 16:29

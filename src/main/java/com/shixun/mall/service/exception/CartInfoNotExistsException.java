@@ -1,7 +1,7 @@
 package com.shixun.mall.service.exception;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: 表示查询的cart数据不存在
  * @date 2022/7/17 19:32

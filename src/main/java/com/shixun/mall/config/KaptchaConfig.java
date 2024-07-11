@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 import java.util.Properties;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: kaptcha配置类
  * @date 2022/7/24 1:55

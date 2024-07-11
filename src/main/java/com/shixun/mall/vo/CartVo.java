@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @author hcxs1986
+ * @author liang
  * @version 1.0
  * @description: 多表查询结果集映射的值对象
  * @date 2022/7/18 1:02
