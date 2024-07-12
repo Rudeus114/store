@@ -46,8 +46,6 @@
 						dataType: "json",
 						success: function (res) {
 							if (res.status === 200){
-								alert("登录成功！");
-								//前往首页
 								window.location.href="index.html";
 								//将用户信息存入session域中
 								sessionStorage.setItem("user",JSON.stringify(res.data));
@@ -56,7 +54,7 @@
 							}
 						},
 						error: function (error) {
-							alert(error.status + "错误,服务器出现故障，请等待攻城狮修复！！")
+							alert(error.status + "错误,请重试！！")
 						}
 					});
 				})
