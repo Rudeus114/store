@@ -6,7 +6,11 @@ ul,li {
 }
 body {
 	font-family: "微软雅黑", "黑体";
+	/*background-image: url('../images/top-background.jpg'); /* 背景图片的路径 */
+	background-size: cover; /* 背景图片填充整个区域 */
+	background-repeat: no-repeat; /* 背景图片不重复 */
 }
+
 .txtred{
 	color: red;
 }
