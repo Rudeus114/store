@@ -4,7 +4,7 @@ package com.shixun.mall.service.exception;
  * @author liang
  * @version 1.0
  * @description: 表示删除失败的异常
- * @date 2022/7/16 0:03
+ * @date 2024重试/7/16 0:03
  */
 public class DeleteException extends ServiceException {
     public DeleteException() {

@@ -4,7 +4,7 @@ package com.shixun.mall.service.exception;
  * @author liang
  * @version 1.0
  * @description: 专用于处理业务层其他未知异常，如数据插入过程中服务器、数据库宕机的情况
- * @date 2022/7/10 22:13
+ * @date 2024重试/7/10 22:13
  */
 public class InsertException extends ServiceException {
 

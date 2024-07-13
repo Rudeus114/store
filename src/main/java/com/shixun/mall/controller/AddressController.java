@@ -18,7 +18,7 @@ import java.util.List;
  * @author liang
  * @version 1.0
  * @description: 处理地址管理相关请求的控制器
- * @date 2022/7/13 19:28
+ * @date 2024重试/7/13 19:28
  */
 @RestController
 @RequestMapping("/address")
@@ -28,7 +28,7 @@ public class AddressController extends BaseController{
 
     /**
      * Description : 处理用户新增地址
-     * @date 2022/7/13
+     * @date 2024重试/7/13
      * @param address 用户地址信息
      * @param session 项目启动自动生成的HttpSession对象
      * @return void
@@ -47,7 +47,7 @@ public class AddressController extends BaseController{
 
     /**
      * Description : 处理用户查询收货地址
-     * @date 2022/7/13
+     * @date 2024重试/7/13
      * @param session 项目启动生成的session
      * @return void
      **/
@@ -76,7 +76,7 @@ public class AddressController extends BaseController{
 
     /**
      * Description : 处理设置默认地址的请求
-     * @date 2022/7/15
+     * @date 2024重试/7/15
      * @param aid 地址aid
      * @param session 项目启动生成的session
      * @return com.shixun.mall.utils.JsonResult<java.lang.Void>
@@ -110,7 +110,7 @@ public class AddressController extends BaseController{
 
     /**
      * Description : 处理删除某个地址的请求
-     * @date 2022/7/15
+     * @date 2024重试/7/15
      * @param aid 地址aid
      * @param session 项目启动生成的session
      * @return com.shixun.mall.utils.JsonResult<java.lang.Void>
@@ -130,7 +130,7 @@ public class AddressController extends BaseController{
 
     /**
      * Description : 处理查询某个指定aid地址的请求
-     * @date 2022/7/15
+     * @date 2024重试/7/15
      * @param aid 地址aid
      * @return com.shixun.mall.utils.JsonResult<com.shixun.mall.entity.Address>
      **/
@@ -149,7 +149,7 @@ public class AddressController extends BaseController{
 
     /**
      * Description : 处理指定地址更新的请求
-     * @date 2022/7/15
+     * @date 2024重试/7/15
      * @param address 实体类对象
      * @param session 项目启动生成的session
      * @return com.shixun.mall.utils.JsonResult<java.lang.Void>

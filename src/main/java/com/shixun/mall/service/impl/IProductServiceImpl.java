@@ -16,7 +16,7 @@ import java.util.List;
  * @author liang
  * @version 1.0
  * @description: 商品业务层接口的实现类
- * @date 2022/7/16 15:01
+ * @date 2024重试/7/16 15:01
  */
 @Service
 public class IProductServiceImpl implements IProductService {
@@ -25,7 +25,7 @@ public class IProductServiceImpl implements IProductService {
 
     /**
      * Description : 处理查询热销商品的具体逻辑
-     * @date 2022/7/16
+     * @date 2024重试/7/16
      * @return java.util.List<com.shixun.mall.entity.Product>
      **/
     @Override
@@ -35,7 +35,7 @@ public class IProductServiceImpl implements IProductService {
 
     /**
      * Description : 处理查询最新商品的具体逻辑
-     * @date 2022/7/16
+     * @date 2024重试/7/16
      * @return java.util.List<com.shixun.mall.entity.Product>
      **/
     @Override
@@ -45,7 +45,7 @@ public class IProductServiceImpl implements IProductService {
 
     /**
      * Description : 根据商品id查询商品的具体逻辑
-     * @date 2022/7/16
+     * @date 2024重试/7/16
      * @param id 商品id
      * @return com.shixun.mall.entity.Product
      **/
@@ -70,7 +70,7 @@ public class IProductServiceImpl implements IProductService {
 
     /**
      * Description : 根据名称进行模糊查询的具体逻辑
-     * @date 2022/7/22
+     * @date 2024重试/7/22
      * @param title 查询的关键字
      * @return com.github.pagehelper.PageInfo<com.shixun.mall.entity.Product>
      **/

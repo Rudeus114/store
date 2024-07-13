@@ -17,7 +17,7 @@ import java.util.List;
  * @author liang
  * @version 1.0
  * @description: 处理订单相关请求的控制器
- * @date 2022/7/18 22:22
+ * @date 2024重试/7/18 22:22
  */
 @RestController
 @RequestMapping("/order")
@@ -27,7 +27,7 @@ public class OrderController extends BaseController{
 
     /**
      * Description : 处理用户创建order订单的请求
-     * @date 2022/7/18
+     * @date 2024重试/7/18
      * @param aid 用户选中的地址aid
      * @param totalPrice 商品的总金额
      * @param session 项目启动自动生成的session对象
@@ -47,7 +47,7 @@ public class OrderController extends BaseController{
 
     /**
      * Description : 处理创建具体orderItem订单的请求
-     * @date 2022/7/19
+     * @date 2024重试/7/19
      * @param oid 已创建订单的oid
      * @param cid 每个商品的cod
      * @param pid 从商品界面直接购买生成订单的商品pid
@@ -73,7 +73,7 @@ public class OrderController extends BaseController{
 
     /**
      * Description : 处理根据订单oid查询order信息的请求
-     * @date 2022/7/20
+     * @date 2024重试/7/20
      * @param oid 订单oid
      * @return com.shixun.mall.utils.JsonResult<com.shixun.mall.entity.Order>
      **/
@@ -85,7 +85,7 @@ public class OrderController extends BaseController{
 
     /**
      * Description : 处理根据订单oid修改订单状态的请求
-     * @date 2022/7/20
+     * @date 2024重试/7/20
      * @param oid 订单oid
      * @param session 项目启动自动生成的session对象
      * @param status 订单状态
@@ -103,7 +103,7 @@ public class OrderController extends BaseController{
 
     /**
      * Description : 处理根据oid查询订单的请求
-     * @date 2022/7/20
+     * @date 2024重试/7/20
      * @param oid 订单oid
      * @return com.shixun.mall.utils.JsonResult<java.util.List<com.shixun.mall.vo.OrderVo>>
      **/
@@ -116,7 +116,7 @@ public class OrderController extends BaseController{
 
     /**
      * Description : 处理根据用户uid查询订单的请求
-     * @date 2022/7/20
+     * @date 2024重试/7/20
      * @param session 项目启动自动生成的session对象
      * @param status 要查询的订单状态类型
      * @return com.shixun.mall.utils.JsonResult<java.util.List<com.shixun.mall.vo.OrderVo>>

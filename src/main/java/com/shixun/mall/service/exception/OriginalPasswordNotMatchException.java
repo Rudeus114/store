@@ -4,7 +4,7 @@ package com.shixun.mall.service.exception;
  * @author liang
  * @version 1.0
  * @description: 表示原密码不正确的异常
- * @date 2022/7/11 23:03
+ * @date 2024重试/7/11 23:03
  */
 public class OriginalPasswordNotMatchException extends ServiceException{
     public OriginalPasswordNotMatchException() {

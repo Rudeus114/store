@@ -18,7 +18,7 @@ import java.util.List;
  * @author liang
  * @version 1.0
  * @description: 处理收藏业务的业务层接口的实现类
- * @date 2022/7/21 21:32
+ * @date 2024重试/7/21 21:32
  */
 @Service
 public class IFavoritesServiceImpl implements IFavoritesService {
@@ -29,13 +29,13 @@ public class IFavoritesServiceImpl implements IFavoritesService {
 
     /**
      * Description :
-     * @date 2022/7/21
+     * @date 2024重试/7/21
      * @param favorites 实体类对象
      * @return int
      **/
     /**
      * Description : 新增收藏商品的具体逻辑
-     * @date 2022/7/21
+     * @date 2024重试/7/21
      * @param uid 用户uid
      * @param pid 商品pid
      * @return int
@@ -67,7 +67,7 @@ public class IFavoritesServiceImpl implements IFavoritesService {
 
     /**
      * Description : 根据uid和商品收藏状态查询收藏数据的具体逻辑
-     * @date 2022/7/21
+     * @date 2024重试/7/21
      * @param uid 用户uid
      * @param status 查询商品状态
      * @return java.util.List<com.shixun.mall.entity.Favorites>
@@ -83,7 +83,7 @@ public class IFavoritesServiceImpl implements IFavoritesService {
 
     /**
      * Description : 根据收藏商品pid和用户uid取消对应商品收藏的具体逻辑
-     * @date 2022/7/22
+     * @date 2024重试/7/22
      * @param status 取消收藏的状态
      * @param fid 收藏的fid
      * @param uid 用户uid

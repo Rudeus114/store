@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
  * @author liang
  * @version 1.0
  * @description: 对应数据表t_dict_district的实体类
- * @date 2022/7/14 13:41
+ * @date 2024重试/7/14 13:41
  */
 @Data
 @AllArgsConstructor

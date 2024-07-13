@@ -12,7 +12,7 @@ import java.util.Properties;
  * @author liang
  * @version 1.0
  * @description: kaptcha配置类
- * @date 2022/7/24 1:55
+ * @date 2024重试/7/24 1:55
  */
 @Slf4j
 @Configuration

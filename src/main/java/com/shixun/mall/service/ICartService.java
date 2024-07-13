@@ -11,7 +11,7 @@ import java.util.List;
  * @author liang
  * @version 1.0
  * @description: 处理购物车管理的接口
- * @date 2022/7/17 0:05
+ * @date 2024重试/7/17 0:05
  */
 public interface ICartService  {
 

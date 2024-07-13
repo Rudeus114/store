@@ -13,7 +13,7 @@ import java.util.List;
  * @author liang
  * @version 1.0
  * @description: 处理省市区相关请求的控制器
- * @date 2022/7/13 19:28
+ * @date 2024重试/7/13 19:28
  */
 @RestController
 @RequestMapping("/district")
@@ -24,7 +24,7 @@ public class DistrictController extends BaseController{
 
     /**
      * Description : 处理父代号查询省市区的请求
-     * @date 2022/7/14
+     * @date 2024重试/7/14
      * @param parent 父代号
      * @return com.shixun.mall.utils.JsonResult<java.util.List<com.shixun.mall.entity.District>>
      **/
@@ -38,7 +38,7 @@ public class DistrictController extends BaseController{
 
     /**
      * Description : 处理查询省市区名称的请求
-     * @date 2022/7/14
+     * @date 2024重试/7/14
      * @param code 省市区的code
      * @return com.shixun.mall.utils.JsonResult<java.lang.String>
      **/

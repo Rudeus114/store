@@ -16,7 +16,7 @@ import javax.servlet.http.HttpSession;
  * @author liang
  * @version 1.0
  * @description: 处理收藏相关请求的控制器
- * @date 2022/7/21 21:37
+ * @date 2024重试/7/21 21:37
  */
 @RestController
 @RequestMapping("/favorites")
@@ -26,7 +26,7 @@ public class FavoritesController extends BaseController{
 
     /**
      * Description : 处理查询收藏商品的请求
-     * @date 2022/7/21
+     * @date 2024重试/7/21
      * @param session 项目启动自动生成session对象
      * @param status 查询收藏商品的状态
      * @return com.shixun.mall.utils.JsonResult<java.util.List<com.shixun.mall.entity.Favorites>>
@@ -42,7 +42,7 @@ public class FavoritesController extends BaseController{
 
     /**
      * Description : 处理添加收藏商品的请求
-     * @date 2022/7/21
+     * @date 2024重试/7/21
      * @param session 项目启动自动生成session对象
      * @param pid 当前商品的pid
      * @return com.shixun.mall.utils.JsonResult<java.lang.Void>
@@ -58,7 +58,7 @@ public class FavoritesController extends BaseController{
 
     /**
      * Description : 处理取消收藏的请求
-     * @date 2022/7/22
+     * @date 2024重试/7/22
      * @param session session 项目启动自动生成session对象
      * @param status 更新的状态
      * @param fid 收藏品的id

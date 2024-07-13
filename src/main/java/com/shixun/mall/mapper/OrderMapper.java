@@ -11,7 +11,7 @@ import java.util.List;
  * @author liang
  * @version 1.0
  * @description: 实体类Order对应的mapper接口
- * @date 2022/7/18 21:44
+ * @date 2024重试/7/18 21:44
  */
 public interface OrderMapper {
     //插入一条order订单数据

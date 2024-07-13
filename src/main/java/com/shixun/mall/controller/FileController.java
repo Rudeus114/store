@@ -23,7 +23,7 @@ import java.util.UUID;
  * @author liang
  * @version 1.0
  * @description: 处理文件上传和下载的Controller
- * @date 2022/7/12 19:55
+ * @date 2024重试/7/12 19:55
  */
 @RestController
 @RequestMapping("/file")
@@ -54,7 +54,7 @@ public class FileController extends BaseController{
 
     /**
      * Description : 处理文件的上传
-     * @date 2022/7/24
+     * @date 2024重试/7/24
      * @param file 文件名
      * @param session 自动生成的session对象
      * @return com.shixun.mall.utils.JsonResult<java.lang.Void>
@@ -135,7 +135,7 @@ public class FileController extends BaseController{
 
     /**
      * Description : 处理文件的下载
-     * @date 2022/7/12
+     * @date 2024重试/7/12
      * @param fileName 下载的文件名
      * @return org.springframework.http.ResponseEntity<byte[]>
      **/

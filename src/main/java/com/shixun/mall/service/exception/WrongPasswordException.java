@@ -4,7 +4,7 @@ package com.shixun.mall.service.exception;
  * @author liang
  * @version 1.0
  * @description: 表示密码错误的异常
- * @date 2022/7/11 17:12
+ * @date 2024重试/7/11 17:12
  */
 public class WrongPasswordException extends ServiceException {
     public WrongPasswordException() {

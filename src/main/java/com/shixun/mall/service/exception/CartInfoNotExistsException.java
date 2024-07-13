@@ -4,7 +4,7 @@ package com.shixun.mall.service.exception;
  * @author liang
  * @version 1.0
  * @description: 表示查询的cart数据不存在
- * @date 2022/7/17 19:32
+ * @date 2024重试/7/17 19:32
  */
 public class CartInfoNotExistsException extends ServiceException{
     public CartInfoNotExistsException() {

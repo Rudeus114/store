@@ -4,7 +4,7 @@ package com.shixun.mall.service.exception;
  * @author liang
  * @version 1.0
  * @description: 表示商品不存在的异常
- * @date 2022/7/16 17:02
+ * @date 2024重试/7/16 17:02
  */
 public class ProductNotExistsException extends ServiceException{
     public ProductNotExistsException() {

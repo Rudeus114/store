@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
  * @author liang
  * @version 1.0
  * @description: 对应数据表t_cart的实体类
- * @date 2022/7/16 19:05
+ * @date 2024重试/7/16 19:05
  */
 @Data
 @AllArgsConstructor

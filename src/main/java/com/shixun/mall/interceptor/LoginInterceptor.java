@@ -10,12 +10,12 @@ import javax.servlet.http.HttpSession;
  * @author liang
  * @version 1.0
  * @description: 自定义的拦截器类，拦截所有请求进行判断
- * @date 2022/7/11 19:40
+ * @date 2024重试/7/11 19:40
  */
 public class LoginInterceptor implements HandlerInterceptor {
     /**
      * Description : 检测全局session对象中是否由uid数据，有则放行，没有则拦截
-     * @date 2022/7/11
+     * @date 2024重试/7/11
      * @param request 请求对象
      * @param response 响应对象
      * @param handler 处理器（url+Controller：映射）

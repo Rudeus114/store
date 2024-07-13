@@ -10,7 +10,7 @@ import java.util.Date;
  * @author liang
  * @version 1.0
  * @description: 对应数据表t_order的实体类
- * @date 2022/7/18 17:32
+ * @date 2024重试/7/18 17:32
  */
 @Data
 @AllArgsConstructor

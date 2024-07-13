@@ -11,7 +11,7 @@ import com.shixun.mall.interceptor.LoginInterceptor;
  * @author liang
  * @version 1.0
  * @description: 网页拦截器，判读用户是否已经登录
- * @date 2022/7/11 19:36
+ * @date 2024重试/7/11 19:36
  */
 @Configuration
 public class LoginConfig implements WebMvcConfigurer {
