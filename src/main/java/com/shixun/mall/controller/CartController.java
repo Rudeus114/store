@@ -18,7 +18,7 @@ import java.util.List;
  * @author liang
  * @version 1.0
  * @description: 处理购物车相关请求的控制器
- * @date 2024重试/7/17 0:52
+ * @date 2024/7/17 0:52
  */
 @RestController
 @RequestMapping("/cart")
@@ -28,7 +28,7 @@ public class CartController extends BaseController{
 
     /**
      * Description : 处理添加购物车的请求
-     * @date 2024重试/7/19
+     * @date 2024/7/19
      * @param cart cart实体类
      * @param session 项目启动时自动生成的session对象
      * @return com.shixun.mall.utils.JsonResult<java.lang.Void>
@@ -51,7 +51,7 @@ public class CartController extends BaseController{
 
     /**
      * Description : 处理查询用户购物车信息的请求
-     * @date 2024重试/7/17
+     * @date 2024/7/17
      * @param session 项目启动时自动生成的session对象
      * @return com.shixun.mall.utils.JsonResult<java.util.List<com.shixun.mall.entity.Cart>>
      **/
@@ -65,7 +65,7 @@ public class CartController extends BaseController{
 
     /**
      * Description : 处理更新购物车数量信息的请求
-     * @date 2024重试/7/18
+     * @date 2024/7/18
      * @param num 更新的数量
      * @param cid cart的cid信息
      * @param session 项目启动时自动生成的session对象
@@ -81,7 +81,7 @@ public class CartController extends BaseController{
 
     /**
      * Description : 处理cids数组的内容查询cart信息的请求
-     * @date 2024重试/7/18
+     * @date 2024/7/18
      * @param cids 查询的cids数组
      * @return com.shixun.mall.utils.JsonResult<java.util.List<com.shixun.mall.entity.Cart>>
      **/
@@ -97,7 +97,7 @@ public class CartController extends BaseController{
 
     /**
      * Description : 处理根据cids内的指定cid删除cart的请求
-     * @date 2024重试/7/19
+     * @date 2024/7/19
      * @param cids 存储要被删除的cart的cid
      * @return com.shixun.mall.utils.JsonResult<java.lang.Void>
      **/

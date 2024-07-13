@@ -21,7 +21,7 @@ import java.util.List;
  * @author liang
  * @version 1.0
  * @description: 处理订单相关业务层接口的实现类
- * @date 2024重试/7/18 21:59
+ * @date 2024/7/18 21:59
  */
 @Service
 public class IOrderServiceImpl implements IOrderService {
@@ -36,7 +36,7 @@ public class IOrderServiceImpl implements IOrderService {
 
     /**
      * Description : 处理根据创建order订单的具体逻辑
-     * @date 2024重试/7/19
+     * @date 2024/7/19
      * @param aid 用户地址aid
      * @param totalPrice 订单商品总价格
      * @param uid 用户uid
@@ -82,7 +82,7 @@ public class IOrderServiceImpl implements IOrderService {
 
     /**
      * Description : 处理根据oid创建orderItem订单的具体逻辑
-     * @date 2024重试/7/19
+     * @date 2024/7/19
      * @param oid 订单的oid
      * @param cid 购物车商品cid
      * @param num 添加的数量
@@ -127,7 +127,7 @@ public class IOrderServiceImpl implements IOrderService {
 
     /**
      * Description : 处理根据从商品界面进入创建orderItem订单的具体逻辑
-     * @date 2024重试/7/21
+     * @date 2024/7/21
      * @param oid 订单的oid
      * @param num 添加的数量
      * @param pid 当前商品的pid
@@ -165,7 +165,7 @@ public class IOrderServiceImpl implements IOrderService {
 
     /**
      * Description : 根据订单oid查询订单的具体逻辑
-     * @date 2024重试/7/20
+     * @date 2024/7/20
      * @param oid 订单oid
      * @return com.shixun.mall.entity.Order
      **/
@@ -180,7 +180,7 @@ public class IOrderServiceImpl implements IOrderService {
 
     /**
      * Description : 根据订单oid修改订单状态的具体逻辑
-     * @date 2024重试/7/20
+     * @date 2024/7/20
      * @param oid 订单oid
      * @param uid 用户uid
      * @param status 要修改成的状态
@@ -224,7 +224,7 @@ public class IOrderServiceImpl implements IOrderService {
 
     /**
      * Description : 根据订单oid查询orderItem信息的具体逻辑
-     * @date 2024重试/7/20
+     * @date 2024/7/20
      * @param oid 订单oid
      * @return java.util.List<com.shixun.mall.entity.OrderItem>
      **/
@@ -241,7 +241,7 @@ public class IOrderServiceImpl implements IOrderService {
 
     /**
      * Description : 根据订单oid查询订单的具体逻辑
-     * @date 2024重试/7/20
+     * @date 2024/7/20
      * @param oid 订单oid
      * @return java.util.List<com.shixun.mall.vo.OrderVo>
      **/
@@ -266,7 +266,7 @@ public class IOrderServiceImpl implements IOrderService {
 
     /**
      * Description : 根据订单oid查询订单的具体逻辑
-     * @date 2024重试/7/20
+     * @date 2024/7/20
      * @param uid 用户uid
      * @return java.util.List<com.shixun.mall.vo.OrderVo>
      **/

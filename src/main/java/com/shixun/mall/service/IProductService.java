@@ -9,7 +9,7 @@ import java.util.List;
  * @author liang
  * @version 1.0
  * @description: 处理商品业务层接口
- * @date 2024重试/7/16 15:01
+ * @date 2024/7/16 15:01
  */
 public interface IProductService {
 

@@ -4,7 +4,7 @@ package com.shixun.mall.controller.exception;
  * @author liang
  * @version 1.0
  * @description: 表示验证码错误的异常
- * @date 2024重试/7/24 14:34
+ * @date 2024/7/24 14:34
  */
 public class ValidCodeNotMatchException extends RuntimeException {
     public ValidCodeNotMatchException() {

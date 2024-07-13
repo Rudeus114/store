@@ -4,7 +4,7 @@ package com.shixun.mall.service.exception;
  * @author liang
  * @version 1.0
  * @description: 表示用户名重复的异常
- * @date 2024重试/7/10 22:10
+ * @date 2024/7/10 22:10
  */
 public class UsernameDuplicateException extends ServiceException{
 

@@ -4,7 +4,7 @@ package com.shixun.mall.service.exception;
  * @author liang
  * @version 1.0
  * @description: 表示查询的订单不存在的异常
- * @date 2024重试/7/20 0:02
+ * @date 2024/7/20 0:02
  */
 public class OrderNotExistsException extends ServiceException{
     public OrderNotExistsException() {

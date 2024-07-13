@@ -11,7 +11,7 @@ import java.util.Date;
  * @author liang
  * @version 1.0
  * @description: 用于与数据表四个字段形成映射关系的基类
- * @date 2024重试/7/10 16:29
+ * @date 2024/7/10 16:29
  */
 @Data
 @NoArgsConstructor

@@ -16,7 +16,7 @@ import java.util.List;
  * @author liang
  * @version 1.0
  * @description: 处理购物车管理接口的实现类
- * @date 2024重试/7/17 0:06
+ * @date 2024/7/17 0:06
  */
 @Service
 public class ICartServiceImpl implements ICartService {
@@ -25,7 +25,7 @@ public class ICartServiceImpl implements ICartService {
 
     /**
      * Description : 根据uid和aid查询数据的具体逻辑
-     * @date 2024重试/7/17
+     * @date 2024/7/17
      * @param uid 用户uid
      * @param pid 购物车pid信息
      * @return com.shixun.mall.entity.Cart
@@ -37,7 +37,7 @@ public class ICartServiceImpl implements ICartService {
 
     /**
      * Description : 更新cart数据的具体逻辑
-     * @date 2024重试/7/17
+     * @date 2024/7/17
      * @param cart 实体类对象
      * @return int
      **/
@@ -52,7 +52,7 @@ public class ICartServiceImpl implements ICartService {
 
     /**
      * Description : 新增cart数据的抽象方法
-     * @date 2024重试/7/17
+     * @date 2024/7/17
      * @param cart 实体类对象
      * @return int
      **/
@@ -95,7 +95,7 @@ public class ICartServiceImpl implements ICartService {
 
     /**
      * Description : 根据uid查询用户购物车信息的具体逻辑
-     * @date 2024重试/7/17
+     * @date 2024/7/17
      * @param uid 用户uid
      * @return java.util.List<com.shixun.mall.entity.Cart>
      **/
@@ -106,7 +106,7 @@ public class ICartServiceImpl implements ICartService {
 
     /**
      * Description : 根据cid查询用户cart信息的具体逻辑
-     * @date 2024重试/7/17
+     * @date 2024/7/17
      * @param cid cart的id
      * @return com.shixun.mall.entity.Cart
      **/
@@ -117,7 +117,7 @@ public class ICartServiceImpl implements ICartService {
 
     /**
      * Description : 根据cid修改对应购物车信息数量的具体逻辑
-     * @date 2024重试/7/18
+     * @date 2024/7/18
      * @param num 修改数量
      * @param modifiedUser 修改人
      * @param modifiedTime 修改时间
@@ -138,7 +138,7 @@ public class ICartServiceImpl implements ICartService {
 
     /**
      * Description : 根据cid返回CartVo对象的具体逻辑
-     * @date 2024重试/7/18
+     * @date 2024/7/18
      * @param cid cart的id
      * @return com.shixun.mall.vo.CartVo
      **/
@@ -149,7 +149,7 @@ public class ICartServiceImpl implements ICartService {
 
     /**
      * Description : 根据cids数组的内容查询cart信息的具体逻辑
-     * @date 2024重试/7/18
+     * @date 2024/7/18
      * @param cids 查询的cids数组
      * @return java.util.List<com.shixun.mall.entity.Cart>
      **/
@@ -167,7 +167,7 @@ public class ICartServiceImpl implements ICartService {
 
     /**
      * Description : 根据cids删除cart信息的具体逻辑
-     * @date 2024重试/7/19
+     * @date 2024/7/19
      * @param cid 购物车商品的cid
      * @return int
      **/
@@ -183,7 +183,7 @@ public class ICartServiceImpl implements ICartService {
 
     /**
      * Description : 根据uid和pid删除对应的t_cart表中的数据的具体逻辑
-     * @date 2024重试/7/20
+     * @date 2024/7/20
      * @param uid 用户uid
      * @param pid 商品pid
      * @return int

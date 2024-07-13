@@ -8,13 +8,13 @@ import java.util.Date;
  * @author liang
  * @version 1.0
  * @description: User实体类对应的mapper接口
- * @date 2024重试/7/10 17:03
+ * @date 2024/7/10 17:03
  */
 public interface UserMapper {
 
     /**
      * Description : 用户注册
-     * @date 2024重试/7/10
+     * @date 2024/7/10
      * @param user 用户信息
      * @return int 插入的结果
      **/
@@ -22,7 +22,7 @@ public interface UserMapper {
 
     /**
      * Description : 根据用户名查询用户信息
-     * @date 2024重试/7/10
+     * @date 2024/7/10
      * @param username 用户名
      * @return com.shixun.mall.entity.User
      **/
@@ -30,7 +30,7 @@ public interface UserMapper {
 
     /**
      * Description : 用户重置密码
-     * @date 2024重试/7/12
+     * @date 2024/7/12
      * @param password 要修改的密码
      * @param modifiedUser 修改人
      * @param modifiedTime 修改时间
@@ -45,7 +45,7 @@ public interface UserMapper {
 
     /**
      * Description : 根据id查询用户信息
-     * @date 2024重试/7/12
+     * @date 2024/7/12
      * @param uid 用户id
      * @return com.shixun.mall.entity.User
      **/
@@ -53,7 +53,7 @@ public interface UserMapper {
 
     /**
      * Description : 更新用户信息
-     * @date 2024重试/7/12
+     * @date 2024/7/12
      * @param phone 电话
      * @param email 邮箱
      * @param gender 性别
@@ -70,7 +70,7 @@ public interface UserMapper {
                        Integer uid);
     /**
      * Description : 处理用户上传头像
-     * @date 2024重试/7/13
+     * @date 2024/7/13
      * @param ImgAddress 保存图片的地址
      * @param modifiedUser 修改人
      * @param modifiedTime 修改时间

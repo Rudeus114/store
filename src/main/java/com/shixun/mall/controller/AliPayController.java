@@ -26,7 +26,7 @@ import java.util.Map;
  * @author liang
  * @version 1.0
  * @description: 处理支付宝沙箱支付的接口
- * @date 2024重试/7/25 1:42
+ * @date 2024/7/25 1:42
  */
 @Slf4j
 @Controller
@@ -38,7 +38,7 @@ public class AliPayController {
 
     /**
      * Description : 处理在线支付的请求
-     * @date 2024重试/7/25
+     * @date 2024/7/25
      * @param oid 订单id
      * @param totalPrice 订单总金额
      * @return java.lang.String
@@ -92,7 +92,7 @@ public class AliPayController {
 
     /**
      * Description : 处理异步回调的方法
-     * @date 2024重试/7/25
+     * @date 2024/7/25
      * @param request  请求对象
      * @param response 响应对象
      * @return void
@@ -186,7 +186,7 @@ public class AliPayController {
 
     /**
      * Description : 同步回调方法
-     * @date 2024重试/7/25
+     * @date 2024/7/25
      * @param request 请求对象
      * @param response 响应对象
      * @return void

@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
  * @author liang
  * @version 1.0
  * @description: 支付宝沙箱支付配置类
- * @date 2024重试/7/25 1:29
+ * @date 2024/7/25 1:29
  */
 @Data
 @Component

@@ -4,7 +4,7 @@ package com.shixun.mall.controller.exception;
  * @author liang
  * @version 1.0
  * @description: 处理文件读取的异常
- * @date 2024重试/7/13 15:46
+ * @date 2024/7/13 15:46
  */
 public class FileUploadIOException extends FileUploadException {
 

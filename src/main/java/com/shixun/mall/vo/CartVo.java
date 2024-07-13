@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
  * @author liang
  * @version 1.0
  * @description: 多表查询结果集映射的值对象
- * @date 2024重试/7/18 1:02
+ * @date 2024/7/18 1:02
  */
 @Data
 @AllArgsConstructor

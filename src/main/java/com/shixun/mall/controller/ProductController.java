@@ -16,7 +16,7 @@ import java.util.List;
  * @author liang
  * @version 1.0
  * @description: 处理商品相关请求的控制器
- * @date 2024重试/7/16 15:07
+ * @date 2024/7/16 15:07
  */
 @RestController
 @RequestMapping("/product")
@@ -26,7 +26,7 @@ public class ProductController extends BaseController{
 
     /**
      * Description : 处理热销商品的请求
-     * @date 2024重试/7/16
+     * @date 2024/7/16
      **/
     @GetMapping("/hotProduct")
     public JsonResult<List<Product>> queryBestProduct(){
@@ -38,7 +38,7 @@ public class ProductController extends BaseController{
 
     /**
      * Description : 处理展示最新商品的请求
-     * @date 2024重试/7/16
+     * @date 2024/7/16
      * @return com.shixun.mall.utils.JsonResult<java.util.List<com.shixun.mall.entity.Product>>
      **/
     @GetMapping("/newProduct")
@@ -51,7 +51,7 @@ public class ProductController extends BaseController{
 
     /**
      * Description : 处理商品id查询该商品信息的请求
-     * @date 2024重试/7/16
+     * @date 2024/7/16
      * @param id 商品id
      * @return com.shixun.mall.utils.JsonResult<com.shixun.mall.entity.Product>
      **/
@@ -63,7 +63,7 @@ public class ProductController extends BaseController{
 
     /**
      * Description : 处理根据产品关键字进行模糊查询的请求
-     * @date 2024重试/7/22
+     * @date 2024/7/22
      * @param pageNum 当前页
      * @param pageSize 每页显示数
      * @param title 查询的关键字

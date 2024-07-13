@@ -12,7 +12,7 @@ import java.util.List;
  * @author liang
  * @version 1.0
  * @description: 处理省市区业务层接口的实现类
- * @date 2024重试/7/14 15:29
+ * @date 2024/7/14 15:29
  */
 @Service
 public class IDistrictServiceImpl implements IDistrictService {
@@ -21,7 +21,7 @@ public class IDistrictServiceImpl implements IDistrictService {
 
     /**
      * Description : 根据父代号查询省市区信息
-     * @date 2024重试/7/14
+     * @date 2024/7/14
      * @param parent 父代号
      * @return java.util.List<com.shixun.mall.entity.District>
      **/
@@ -41,7 +41,7 @@ public class IDistrictServiceImpl implements IDistrictService {
 
     /**
      * Description : 根据code查询省市区名字
-     * @date 2024重试/7/14
+     * @date 2024/7/14
      * @param code 省市区的code
      * @return java.lang.String
      **/

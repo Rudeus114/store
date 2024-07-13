@@ -4,7 +4,7 @@ package com.shixun.mall.service.exception;
  * @author liang
  * @version 1.0
  * @description: 表示更新失败的异常
- * @date 2024重试/7/17 19:09
+ * @date 2024/7/17 19:09
  */
 public class UpdateException extends ServiceException{
     public UpdateException() {

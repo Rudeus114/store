@@ -15,7 +15,7 @@ import java.util.UUID;
  * @author liang
  * @version 1.0
  * @description: 处理用户相关信息的业务层接口的实现类
- * @date 2024重试/7/10 22:18
+ * @date 2024/7/10 22:18
  */
 @Service
 public class IUserServiceImpl implements IUserService {
@@ -25,7 +25,7 @@ public class IUserServiceImpl implements IUserService {
 
     /**
      * Description : 处理用户注册
-     * @date 2024重试/7/10
+     * @date 2024/7/10
      * @param user 注册的用户信息
      * @return void
      **/
@@ -77,7 +77,7 @@ public class IUserServiceImpl implements IUserService {
 
     /**
      * Description : 处理用户登录
-     * @date 2024重试/7/11
+     * @date 2024/7/11
      * @param user 登录的用户信息
      * @return com.shixun.mall.entity.User
      **/
@@ -119,7 +119,7 @@ public class IUserServiceImpl implements IUserService {
 
     /**
      * Description : 处理用户修改密码
-     * @date 2024重试/7/11
+     * @date 2024/7/11
      * @param originalPassword 用户的原密码
      * @param newPassword 用户要修改的新密码
      * @param session 项目启动springboot提供的session对象，用于获取用户的uid
@@ -162,7 +162,7 @@ public class IUserServiceImpl implements IUserService {
 
     /**
      * Description : 处理用户更新个人资料
-     * @date 2024重试/7/12
+     * @date 2024/7/12
      * @param phone 电话
      * @param email 邮箱
      * @param gender 性别
@@ -191,7 +191,7 @@ public class IUserServiceImpl implements IUserService {
 
     /**
      * Description : 根据用户id查询用户信息
-     * @date 2024重试/7/12
+     * @date 2024/7/12
      * @param uid 用户id
      * @return com.shixun.mall.entity.User
      **/
@@ -203,7 +203,7 @@ public class IUserServiceImpl implements IUserService {
 
     /**
      * Description : 处理用户上传图片
-     * @date 2024重试/7/12
+     * @date 2024/7/12
      * @param imgAddress 图片地址
      * @param uid 用户id
      * @return void

@@ -8,7 +8,7 @@ import java.util.List;
  * @author liang
  * @version 1.0
  * @description: 实体类Favorites对应的mapper接口
- * @date 2024重试/7/21 21:23
+ * @date 2024/7/21 21:23
  */
 public interface FavoritesMapper {
 

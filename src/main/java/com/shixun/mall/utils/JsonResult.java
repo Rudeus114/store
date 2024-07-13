@@ -6,7 +6,7 @@ import lombok.Data;
  * @author liang
  * @version 1.0
  * @description: 响应数据
- * @date 2024重试/7/10 23:37
+ * @date 2024/7/10 23:37
  */
 @Data
 public class JsonResult<E> {

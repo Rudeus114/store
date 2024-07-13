@@ -4,7 +4,7 @@ package com.shixun.mall.service.exception;
  * @author liang
  * @version 1.0
  * @description: 表示用户地址条目数超出限制的异常
- * @date 2024重试/7/13 18:55
+ * @date 2024/7/13 18:55
  */
 public class AddressCountLimitException extends ServiceException{
     public AddressCountLimitException() {

@@ -4,7 +4,7 @@ package com.shixun.mall.service.exception;
  * @author liang
  * @version 1.0
  * @description: 表示用户名不存在的异常
- * @date 2024重试/7/11 17:05
+ * @date 2024/7/11 17:05
  */
 public class UserNotExistException extends ServiceException {
     public UserNotExistException() {
