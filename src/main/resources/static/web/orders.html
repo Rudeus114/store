@@ -23,6 +23,64 @@
 		<script src="../js/TimeTran.js" type="text/javascript" charset="UTF-8"></script>
 
 		<script type="text/javascript">
+			//展示订单详情
+			function showOrderDetails(oid){
+				location.href = "orderInfo.html?oid=" + oid
+			}
+
+			//确认收货的绑定事件
+			function makeOrderFinish(oid) {
+				if (confirm("您是否已经收到商品？如果是请继续执行收货操作！")){
+					let status = 3;
+					$.ajax({
+						url : "/order/updateStatus",
+						type: "post",
+						data: {oid:oid,status:status},
+						dataType: "json",
+						success: function (res) {
+							alert("收货成功！")
+						    location.reload();
+						},
+						error: function (error) {
+							alert("出现异常，收货失败！" + error.status)
+						}
+					});
+				}
+
+			}
+
+			//将返回的数据进行拼接并展示在页面上
+			function showInHtmlFromAjax(res) {
+				$("#orderDetail").empty();
+				//当用户是首次登录是没有任何订单的
+				if (res.data === null){
+					let nullStr = "<div class=\"panel panel-default\">"
+							+ "<div  class=\"panel-heading\">"
+							+  "<div style='padding-top: 5px;padding-bottom: 5px;font-weight: bolder;color: red'>"
+							+ "尚无订单，先去看看喜欢的东西吧！"
+							+ "<a href='index.html'  style='padding: 0 15px;'>点击此处跳转到首页！</a>"
+							+ "</div>"
+							+ "</div>"
+							+ "</div>"
+					$("#orderDetail").append(nullStr)
+
+					return false;
+				}
+				//记录返回订单数据的长度
+				let dataSize = res.data.length;
+				//记录上一个订单的id
+				let lastOrderId = 0;
+				let orderTopStr = "";
+				for (let i = 0; i < dataSize; i++) {
+					//获取当前遍历的数字
+					let idNum = i;
+					let orderVo = res.data[i]
+					//将时间格式变为年-月-日 时-分-秒
+					let orderTime = getDate(orderVo.orderTime);
+					//获取当前订单的状态
+					let status = JSON.parse(orderVo.status)
+					//获取当前订单的oid
+					let oid = orderVo.oid;
 
 		</script>
 	</head>
