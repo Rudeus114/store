@@ -17,7 +17,7 @@ import java.util.List;
  * @author liang
  * @version 1.0
  * @description: 处理地址管理业务层接口的实现类
- * @date 2024重试/7/13 18:59
+ * @date 2024/7/13 18:59
  */
 @Service
 public class IAddressServiceImpl implements IAddressService {
@@ -32,7 +32,7 @@ public class IAddressServiceImpl implements IAddressService {
 
     /**
      * Description : 添加地址业务具体逻辑
-     * @date 2024重试/7/13
+     * @date 2024/7/13
      * @param address 地址类对象
      * @return void
      **/
@@ -81,7 +81,7 @@ public class IAddressServiceImpl implements IAddressService {
 
     /**
      * Description : 地址查询的具体逻辑
-     * @date 2024重试/7/13
+     * @date 2024/7/13
      * @param uid 用户id
      * @return java.util.List<com.shixun.mall.entity.Address>
      **/
@@ -99,7 +99,7 @@ public class IAddressServiceImpl implements IAddressService {
 
     /**
      * Description :根据aid查询地址的具体逻辑
-     * @date 2024重试/7/14
+     * @date 2024/7/14
      * @param aid 地址aid
      * @return com.shixun.mall.entity.Address
      **/
@@ -110,7 +110,7 @@ public class IAddressServiceImpl implements IAddressService {
 
     /**
      * Description : 设置用户所有地址为非默认的具体逻辑
-     * @date 2024重试/7/14
+     * @date 2024/7/14
      * @param uid 用户uid
      * @return int
      **/
@@ -121,7 +121,7 @@ public class IAddressServiceImpl implements IAddressService {
 
     /**
      * Description : 设置某个地址为默认地址的具体逻辑
-     * @date 2024重试/7/14
+     * @date 2024/7/14
      * @param aid 地址aid
      * @param modifiedTime 修改时间
      * @param modifiedUser 修改者
@@ -134,7 +134,7 @@ public class IAddressServiceImpl implements IAddressService {
 
     /**
      * Description : 删除某个地址的具体逻辑
-     * @date 2024重试/7/15
+     * @date 2024/7/15
      * @param aid 地址aid
      * @param modifiedUser 修改者
      * @param modifiedTime 修改时间
@@ -157,7 +157,7 @@ public class IAddressServiceImpl implements IAddressService {
 
     /**
      * Description : 修改指定地址的具体逻辑
-     * @date 2024重试/7/15
+     * @date 2024/7/15
      * @param address 实体类对象
      * @return int
      **/

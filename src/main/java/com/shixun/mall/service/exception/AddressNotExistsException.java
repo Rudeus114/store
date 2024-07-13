@@ -5,7 +5,7 @@ package com.shixun.mall.service.exception;
  * @author liang
  * @version 1.0
  * @description: 表示地址不存在的异常
- * @date 2024重试/7/14 23:09
+ * @date 2024/7/14 23:09
  */
 public class AddressNotExistsException extends ServiceException {
     public AddressNotExistsException() {

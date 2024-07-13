@@ -10,7 +10,7 @@ import javax.servlet.http.HttpSession;
  * @author liang
  * @version 1.0
  * @description: 基类Controller
- * @date 2024重试/7/11 0:23
+ * @date 2024/7/11 0:23
  */
 public class BaseController {
     //操作成功的状态码
@@ -69,7 +69,7 @@ public class BaseController {
 
     /**
      * Description : 从session中获取用户uid
-     * @date 2024重试/7/11
+     * @date 2024/7/11
      * @param session springboot启动时生成的session对象
      * @return java.lang.Integer
      **/
@@ -81,7 +81,7 @@ public class BaseController {
 
     /**
      * Description : 从session中获取用户username
-     * @date 2024重试/7/11
+     * @date 2024/7/11
      * @param session springboot启动时生成的session对象
      * @return java.lang.String
      **/

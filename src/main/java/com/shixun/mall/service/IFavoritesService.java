@@ -8,7 +8,7 @@ import com.shixun.mall.entity.Favorites;
  * @author liang
  * @version 1.0
  * @description: 处理收藏业务的业务层接口
- * @date 2024重试/7/21 21:30
+ * @date 2024/7/21 21:30
  */
 public interface IFavoritesService {
 

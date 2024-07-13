@@ -4,7 +4,7 @@ package com.shixun.mall.service.exception;
  * @author liang
  * @version 1.0
  * @description: 表示商品状态异常
- * @date 2024重试/7/16 17:03
+ * @date 2024/7/16 17:03
  */
 public class ProductBadStatusException extends ServiceException {
     public ProductBadStatusException() {

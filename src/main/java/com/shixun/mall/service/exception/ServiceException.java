@@ -4,7 +4,7 @@ package com.shixun.mall.service.exception;
  * @author liang
  * @version 1.0
  * @description: 专用于处理业务层的异常基类
- * @date 2024重试/7/10 21:59
+ * @date 2024/7/10 21:59
  */
 //e.g. throws new ServiceException("业务层出现异常")
 public class ServiceException extends RuntimeException{

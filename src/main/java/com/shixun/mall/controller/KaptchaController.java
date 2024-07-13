@@ -17,7 +17,7 @@ import java.awt.image.BufferedImage;
  * @author liang
  * @version 1.0
  * @description: kaptcha的控制层,kaptcha调用
- * @date 2024重试/7/24 1:57
+ * @date 2024/7/24 1:57
  */
 @Slf4j
 @RestController

@@ -8,7 +8,7 @@ import java.util.List;
  * @author liang
  * @version 1.0
  * @description: 处理省市区业务层接口
- * @date 2024重试/7/14 15:28
+ * @date 2024/7/14 15:28
  */
 public interface IDistrictService{
 
