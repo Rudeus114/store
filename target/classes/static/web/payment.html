@@ -81,6 +81,17 @@
 				})
 			}
 		}
+		function submitOrder(oid){
+				$.ajax({
+					url: "/order/updateStatus",
+					type: "post",
+					data: {oid:oid,status:1},
+					success:function (res) {
+						alert("支付订单成功")
+						location.href = "paySuccess.html?oid="+oid;
+					}
+				})
+			}
 		</script>
 	</head>
 
@@ -126,7 +137,7 @@
 							<a href="javascript:void(0)" onclick="return cancelOrder($('#oid').val())">取消支付</a>
 							<span class="pull-right">
 								<span id="rightPrice" style="color: red;font-weight: bold"></span>
-								<input type="submit" value="确认付款" class="btn btn-primary btn-lg link-success"/>
+								<input type="button" value="确认付款" class="btn btn-primary btn-lg link-success " onclick="return submitOrder($('#oid').val())"/>
 							</span>
 						</div>
 					</form>
