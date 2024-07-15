@@ -22,6 +22,7 @@ import java.util.List;
  */
 @Service
 public class IFavoritesServiceImpl implements IFavoritesService {
+    @SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
     @Autowired
     private FavoritesMapper favoritesMapper;
     @Autowired

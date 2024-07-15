@@ -14,6 +14,7 @@ import java.util.List;
  * @description: 处理省市区业务层接口的实现类
  * @date 2024/7/14 15:29
  */
+@SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
 @Service
 public class IDistrictServiceImpl implements IDistrictService {
     @Autowired
